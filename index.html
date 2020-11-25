@@ -1,63 +1,278 @@
 <!doctype html>
-<html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, maximum-scale=1">
-  <meta prefix="og: http://ogp.me/ns#" property="og:title" content="Evelyn Pei - Portfolio">
-  <meta prefix="og: http://ogp.me/ns#" property="og:description"
-    content="A portfolio website of Evelyn Pei's web development projects and tech stack.">
-  <meta prefix="og: http://ogp.me/ns#" property="og:image"
-    content="https://evelynpei.com/img/thumbnail.png">
-  <link rel="icon" href="/img/favicon.png" type="image/png">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=Open+Sans:wght@300;400;600;800&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-  <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
-  <link href="css/animate.css" rel="stylesheet" type="text/css">
-  <title>Kevin Travis | Portfolio</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" property="og:description" content="He was wonderful to work with on our D3 visualization. He delivered a great first version very quickly and iterated with us as we refined our design and needs. He is an excellent communicator and asks good questions.">
+	<meta name="author" content="D3Expert">
+	<meta property='og:title' content='Work Less, Earn More'/>
+	<meta property='og:image' content='//d3expert.github.io/img/d3expert.jpg'/>	
+	<meta property='og:url' content='//d3expert.github.io'/>
+
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>D3Expert Portfolio - Home</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+  	<link rel="stylesheet" href="css/themify-icons.css">
+  	<link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+	<link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159287982-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-159287982-1');
+	</script>
 </head>
+
 <body>
 
-  <section id="hero_section" class="top_cont_outer">
-    <div class="hero_wrapper">
-      <div class="container">
-        <div class="hero_section">
+	<!--================ Start Header Area =================-->
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+          <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+					<a class="navbar-brand logo_inner_page" href="index.html"><img src="img/logo2.png" alt=""></a>      
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav">
+							<li class="nav-item active"><a class="nav-link" href="#banner">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+							<li class="nav-item"><a class="nav-link" href="#service">Services</a></li>							
+							<li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--================ End Header Area =================-->
+
+	<!--================ Start Home Banner Area =================-->
+	<section class="home_banner_area" id="banner">
+		<div class="banner_inner">
+			<div class="container">
+				<div class="row align-items-center justify-content-between">
+					<div class="col-lg-6">
+						<div class="banner_content">
+							<h3>Hey There !</h3>
+							<h1 class="text-uppercase">I am a web developer</h1>
+							<h5 class="text-uppercase">And data visualization expert</h5>
+							<div class="social_icons my-5">								
+								<a href="skype:jlmobile710@gmail.com?call"><i class="ti-skype"></i></a>
+								<a href="https://github.com/webmaster444"><i class="ti-github"></i></a>								
+								<a href="mailto:jlmobile710@gmail.com"><i class="ti-email"></i></a>								
+							</div>
+							<a class="primary_btn nav-link" href="#portfolio"><span>See My Work</span></a>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="home_right_img">
+							<img class="img-fluid" src="img/banner/home-right.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ End Home Banner Area =================-->
+
+	<!--================ Start Statistics Area =================-->
+	<section class="statistics_area">
+		<div class="container">
+			<div class="row justify-content-lg-start justify-content-center">
+				<div class="col-lg-2 col-md-3">
+					<div class="statistics_item">
+						<h3><span class="counter">50</span>+</h3>
+						<p>Happy Customer</p>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-3">
+					<div class="statistics_item">
+						<h3><span class="counter">120</span>+</h3>
+						<p>Projects Completed</p>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-3">
+					<div class="statistics_item">
+						<h3><span class="counter">9</span>/10</h3>
+						<p>Average Rating</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ End Statistics Area =================-->
+
+	<!--================ Start About Us Area =================-->
+	<section class="about_area section_gap" id="about">
+		<div class="container">
+			<div class="row justify-content-start align-items-center">
+				<div class="col-lg-5">
+					<div class="about_img">
+						<img class="" src="img/about-us.png" alt="">
+					</div>
+				</div>
+
+				<div class="offset-lg-1 col-lg-5">
+					<div class="main_title text-left">
+						<p class="top_text">About me <span></span></p>
+						<h2>
+							A Senior web developer and a data visualization expert
+						</h2>
+						<p>
+							Have been working as a web developer since 2010 and worked with a variety of clients from startup to multinational companies.
+							My expertise covers not only front end and backend development but also speed optimization, SEO and data visualization.
+						</p>						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ End About Us Area =================-->
+
+	<!--================ Start Features Area =================-->
+	<section class="services_area" id="service">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main_title">
+						<p class="top_text">Our Service <span></span></p>
+						<h2>What Services We Offer For You </h2>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+					<div class="service_item">
+						<img src="img/services/s1.png" alt="">
+						<h4>Web Development</h4>
+						<p>Several kinds of php frameworks and python frameworks including Laravel, CI, Flask, Django, CMSs like Wordpress, Shopify</p>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+					<div class="service_item">
+						<img src="img/services/s2.png" alt="">
+						<h4>Software Development</h4>
+						<p>Web Scraping, Testing/Automation, Machine Learning, Image Processing</p>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+					<div class="service_item">
+						<img src="img/services/s3.png" alt="">
+						<h4>Javascript Frameworks</h4>
+						<p>D3.js, Highcharts, React.js and Angular framework</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ End Features Area =================-->
+
+
+  <!--================ Start Testimonial Area =================-->
+	<section class="testimonial_area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main_title">
+						<p class="top_text">Our Tesitmonial <span></span></p>
+						<h2>Honourable Client Says About Me </h2>
+					</div>
+				</div>
+      </div>
+
+      <div class="owl-carousel owl-theme testimonial-slider ">
+        <div class="testimonial-item">
           <div class="row">
-            <div class="col-md-12">
-              <div class="top_left_cont intro zoomIn wow animated">
-                <h2>Hello World !<br> <strong>I'm Kevin Travis</strong></h2>
-                <p id="full-stack">{ Senior Full Stack Web Developer }</p>
-                <p>Spontaneous Traveler • Coffee Drinker</p>
-                <p>Nature Lover • Food Connoisseur </p>
-                <div class="underline"></div>
-                <ul class="social_links">
-                  <li class="linkedin animated bounceIn wow delay-02s animated"
-                      style="visibility: visible; animation-name: bounceIn;">
-                    <a href="https://www.linkedin.com/in/kevin-travis-2486911a5/" target="_blank">
-                      <i class="fa fa-linkedin"></i>
-                    </a>
-                  </li>
-                  <li class="github animated bounceIn wow delay-03s animated"
-                      style="visibility: visible; animation-name: bounceIn;">
-                    <a href="https://github.com/LuckyMan120" target="_blank">
-                      <i class="fa fa-github"></i>
-                    </a>
-                  </li>
-                  <li class="envelope animated bounceIn wow delay-04s animated"
-                      style="visibility: visible; animation-name: bounceIn;">
-                    <a href="mailto:kevintravis120@gmail.com" target="_blank">
-                      <i class="fa fa-envelope"></i>
-                    </a>
-                  </li>
-                  <li class="phone animated bounceIn wow delay-05s animated"
-                      style="visibility: visible; animation-name: bounceIn;">
-                    <a href="tel:18564855478">
-                      <i class="fa fa-phone"></i>
-                    </a>
-                  </li>
+            <div class="col-lg-6">
+              <div class="testi-img mb-4 mb-lg-0">
+                <img src="img/testimonials/jay.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="testi-right">
+                <h4>Jay Grieves</h4>
+                <p><small>Project Manager, Second Sight</small></p>
+
+                <p>Jin was wonderful to work with on our D3 visualization. He delivered a great first version very quickly and iterated with us as we refined our design and needs. He is an excellent communicator and asks good questions. We will be hiring him again immediately to do more for us. If you need a D3 developer, he's the guy you want.</p>
+                <ul class="star_rating mt-4">
+                  <li><span><i class="fas fa-star"></i></span></li>
+                  <li><span><i class="fas fa-star"></i></span></li>
+                  <li><span><i class="fas fa-star"></i></span></li>
+                  <li><span><i class="fas fa-star"></i></span></li>
+                  <li><span><i class="fas fa-star"></i></span></li>                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-item">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="testi-img mb-4 mb-lg-0">
+                <img src="img/testimonials/andrew.jpeg" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="testi-right">
+                <h4>Andrew Gazdecki</h4>
+                <p><small>CEO, BiznessApp</small></p>
+
+                <p>Jin quickly and well assessed the business needs that implemented them perfectly. I'd love to work with him in the future!</p>
+                <ul class="star_rating mt-3">
+                  <li><span><i class="fas fa-star"></i></span></li>
+                  <li><span><i class="fas fa-star"></i></span></li>
+                  <li><span><i class="fas fa-star"></i></span></li>
+                  <li><span><i class="fas fa-star"></i></span></li>
+                  <li><span><i class="fas fa-star"></i></span></li>                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-item">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="testi-img mb-4 mb-lg-0">
+                <img src="img/testimonials/orien.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="testi-right">
+                <h4>Oren Kaniel</h4>
+                <p><small>CEO & co founder, The AppsFlyer Rocketship</small></p>
+
+                <p>Jin really attended to the requirements i set out and asked pointed questions when he needed more information. His dev skills are very good but his communication really added value on top. I'll work with Jin again.</p>
+                <ul class="star_rating mt-3">
+                  <li><span><i class="fas fa-star"></i></span></li>
+                  <li><span><i class="fas fa-star"></i></span></li>
+                  <li><span><i class="fas fa-star"></i></span></li>
+                  <li><span><i class="fas fa-star"></i></span></li>
+                  <li><span><i class="fas fa-star"></i></span></li>                  
                 </ul>
               </div>
             </div>
@@ -66,425 +281,452 @@
       </div>
     </div>
   </section>
-
-  <header id="header_wrapper">
-    <div class="container">
-      <div class="header_box">
-        <nav class="navbar navbar-inverse" role="navigation">
-          <div class="navbar-header">
-            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-          </div>
-          <div id="main-nav" class="collapse navbar-collapse navStyle">
-            <ul class="nav navbar-nav" id="mainNav">
-              <li class="active"><a href="#hero_section" class="scroll-link">Home</a></li>
-              <li><a href="#aboutUs" class="scroll-link">About Me</a></li>
-              <li><a href="#service" class="scroll-link">Technologies</a></li>
-              <li><a href="#Portfolio" class="scroll-link">Projects</a></li>
-              <li><a href="#contact" class="scroll-link" id="contact-btn">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <section id="aboutUs">
-    <div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <h2>About Me</h2>
-            <h6>From customer service to English teacher to web development. How I ended up here.</h6>
-          </div>
-        </div>
-        <div class="row about-us">
-          <div class="col-sm-6">
-            <div class="profile-pic img-responsive"></div>
-          </div>
-          <div class="col-sm-6">
-            <h3>I've always loved to create tangible things.</h3>
-            <p>
-              Ever since I was a little kid, software development has been my passion. I still remember sitting in front of an Atari 800 computer, with the BASIC cartridge loaded in , making it print "Hello, Kevin" for the very first time.  As I went through the BASIC tutorial, it was almost magic, being able to get the computer to do whatever I wanted, just by typing in these funny little symbols, limited only by my own imagination and ingenuity. Throughout middle and high school, I latched on to any ideas for projects I could get, moving from "Hello World" all the way to a simple First Person shooter engine, with dozens of projects in between. I learned Vue.js and React.js, then Angular.js tearing through any books I could find on anything remotely related to software development. I was insatiable.
-            </p>
-            <p>
-              This passion carried me through my education at the University of Tokyo. Here there were more resources available to me than I ever could have imagined as a kid. I studied new languages, algorithms, compilers, higher mathematics, all with pretty much the same fascination that drove me as a kid. And it was here that I learned truly how much there was yet to learn.
-            </p>
-            <p>
-              For my first professional contract, I was given the opportunity to lead a full Front-end development of a LessGo start up's website. My second contract involved injecting Wordpress on popular merchant websites. This contract quickly turned into a full time offer and I have been happily expanding my role as a software engineer ever since.
-            </p>
-            <p>
-              So, now, in industry, this passion remains with me. There's certainly yet more to learn, yet more problems to solve, and yet more to build. And for this, I am very grateful.
-            </p>
-            <h4 class="interesting-facts">
-              A few interesting facts about me:
-            </h4>
-            <ul class="about-us-list">
-              <li class="points">When I'm not coding, I'm usually out hiking or doing something active.</li>
-              <li class="points">I have three pet cats: Tiggy, Meowmington, and Himmy. They were all strays!</li>
-              <li class="points">I love traveling and taking photos (although I'm no where near great at it hah).</li>
-              <li class="points">I'm addicted to caffeine - gotta have my coffee/tea or I can't function!</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+	<!--================ End Testimonial Area =================-->
 
 
-  <section  id="service">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h2>Technologies</h2>
-          <h6>Here is a list of my current tech stack. I'm constantly looking to learn and add more!</h6>
-        </div>
-      </div>
-      <div class="row service-row">
-        <div class="col icon-col">
-          <div class="service_icon delay-03s animated wow  zoomIn">
-            <span>
-                <i class="devicon-react-original"></i>
-            </span>
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">React</h3>
-          </div>
-        </div>
-        <div class="col icon-col">
-          <div class="service_icon icon2  delay-03s animated wow zoomIn">
-            <span>
-              <i class="devicon-javascript-plain"></i>
-            </span>
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">JavaScript</h3>
-            <p class="animated fadeInUp wow js-56">ES5/ES6</p>
-          </div>
-        </div>
-        <div class="col icon-col">
-          <div class="service_icon icon3  delay-03s animated wow zoomIn">
-            <span>
-              <i class="devicon-nodejs-plain-wordmark"></i>
-            </span>
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">Node.js</h3>
-          </div>
-        </div>
-        <div class="col icon-col">
-          <div class="service_icon icon3  delay-03s animated wow zoomIn">
-            <span>
-              <i class="devicon-vuejs-plain"></i>
-            </span>
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">Vue.js</h3>
-          </div>
-        </div>
-      </div>
-      <div class="row service-row">
-        <div class="col icon-col">
-          <div class="service_icon delay-03s animated wow  zoomIn">
-            <span>
-              <i class="devicon-postgresql-plain"></i>
-            </span>
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">PostgreSQL</h3>
-          </div>
-        </div>
-        <div class="col icon-col">
-          <div class="service_icon icon2  delay-03s animated wow zoomIn">
-            <span>
-              <i class="devicon-mongodb-plain"></i>
-            </span>
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">MongoDB</h3>
-          </div>
-        </div>
-        <div class="col icon-col">
-            <div class="service_icon icon3  delay-03s animated wow zoomIn">
-              <span>
-                <i class="devicon-express-original"></i>
-              </span>
-            </div>
-            <div class="service_block">
-              <h3 class="animated fadeInUp wow">Express</h3>
-            </div>
-          </div>
-          <div class="col icon-col">
-            <div class="service_icon icon3  delay-03s animated wow zoomIn">
-              <span>
-                <i class="devicon-mysql-plain"></i>
-              </span>
-            </div>
-            <div class="service_block">
-              <h3 class="animated fadeInUp wow">MySQL</h3>
-            </div>
-          </div>
-      </div>
-      <div class="row service-row">
-        <div class="col icon-col">
-          <div class="service_icon delay-03s animated wow  zoomIn">
-            <span>
-              <i class="devicon-wordpress-plain"></i>
-            </span>
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">WordPress</h3>
-          </div>
-        </div>
-        <div class="col icon-col">
-          <div class="service_icon icon2  delay-03s animated wow zoomIn">
-            <span>
-              <i class="devicon-symfony-plain"></i>
-            </span>
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">Symfony</h3>
-          </div>
-        </div>
-        <div class="col icon-col">
-          <div class="service_icon icon3  delay-03s animated wow zoomIn">
-            <span>
-              <i class="devicon-drupal-plain"></i>
-            </span>
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">Drupal</h3>
-          </div>
-        </div>
-        <div class="col icon-col">
-          <div class="service_icon icon3  delay-03s animated wow zoomIn">
-            <span>
-              <i class="devicon-laravel-plain"></i>
-            </span>
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">Laravel</h3>
-          </div>
-        </div>
-      </div>
-      <div class="row service-row">
-        <div class="col icon-col">
-          <div class="service_icon delay-03s animated wow  zoomIn">
-            <span>
-              <i class="devicon-git-plain"></i>
-            </span>
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">git</h3>
-          </div>
-        </div>
-        <div class="col icon-col">
-          <div class="service_icon icon2  delay-03s animated wow zoomIn">
-            <span>
-              <i class="devicon-github-plain"></i>
-            </span>
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">GitHub</h3>
-          </div>
-        </div>
-        <div class="col icon-col">
-          <div class="service_icon icon3  delay-03s animated wow zoomIn">
-            <span>
-              <i class="devicon-bootstrap-plain"></i>
-            </span>
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">Bootstrap 4</h3>
-          </div>
-        </div>
-        <div class="col icon-col">
-          <div class="service_icon icon3  delay-03s animated wow zoomIn">
-            <span>
-              <i class="devicon-npm-original-wordmark"></i>
-            </span>
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">npm</h3>
-          </div>
-        </div>
-      </div>
-      <div class="row service-row">
-        <div class="col icon-col">
-          <div class="service_icon delay-03s animated wow  zoomIn">
-            <span>
-              <i class="devicon-python-plain"></i>
-            </span>
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">Python</h3>
-          </div>
-        </div>
-        <div class="col icon-col">
-          <div class="service_icon icon2  delay-03s animated wow zoomIn">
-            <span>
-              <i class="devicon-ruby-plain"></i>
-            </span>
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">Ruby</h3>
-          </div>
-        </div>
-        <div class="col icon-col">
-          <div class="service_icon icon3  delay-03s animated wow zoomIn">
-            <span>
-              <i class="devicon-rails-plain"></i>
-            </span>
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">Rails</h3>
-          </div>
-        </div>
-        <div class="col icon-col">
-          <div class="service_icon icon3  delay-03s animated wow zoomIn">
-            <span>
-              <i class="devicon-typescript-plain"></i>
-            </span>
-          </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">Typescript</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
 
-  <section id="Portfolio" class="content">
-    <div class="container portfolio_title">
-      <div class="section-title row">
-        <h2>Projects</h2>
-        <h6>Here are the applications I've worked on, including personal and team projects.</h6>
-      </div>
-    </div>
+	<!--================ Start Portfolio Area =================-->
+	<section class="portfolio_area" id="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main_title">
+						<p class="top_text">Our Portfolio <span></span></p>
+						<h2>Check Our Recent Client Work </h2>
+					</div>
+				</div>
+			</div>
+	
+			<div class="filters portfolio-filter">
+				<ul>
+					<li class="active" data-filter="*">all</li>
+					<li data-filter=".d3">D3.js</li>
+					<li data-filter=".laravel"> laravel</li>
+					<li data-filter=".react">react</li>
+					<li data-filter=".wordpress">wordpress</li>
+					<li data-filter=".shopify">shopify</li>
+				</ul>
+			</div>
+	
+			<div class="filters-content">
+				<div class="row portfolio-grid">
+					<div class="grid-sizer col-md-3 col-lg-3"></div>
+					<div class="col-lg-6 col-md-6 all laravel">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/p1.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://hifly.aero/" target="_blank">HiFly Laravel website</a></h4>
+								<p>Laravel</p>
+							</div>
+						</div>
+					</div>				
+					<div class="col-lg-3 col-md-6 all laravel">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/p3.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://stphilips.co.uk/" target="_blank">St. Philips</a></h4>
+								<p>Laravel, Personal Website</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 all laravel react">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/p2.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://www.antler.co/" target="_blank">Antler website</a></h4>
+								<p>Laravel, Gatsby</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 all react">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/heineken.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://heineken.hr/en/" target="_blank">Heineken</a></h4>
+								<p>React.js</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 all react">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/covermymeds.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://experience.covermymeds.com/" target="_blank">Cover My Meds</a></h4>
+								<p>React.js, Horizontal Slider</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 all react">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/centra.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://centra.com/" target="_blank">Centra</a></h4>
+								<p>React.js, e-commerce</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 all shopify">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/mitaeyewear.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://mita-eyewear.com/" target="_blank">MITA Eyewear</a></h4>
+								<p>Shopify</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 all shopify">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/olivia.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://oliviapalermo.com/" target="_blank">OLIVIA PALERMO</a></h4>
+								<p>Shopify</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 all shopify">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/vuarnet.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://us.vuarnet.com/" target="_blank">Vuarnet</a></h4>
+								<p>Shopify</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 all react">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/cutsclothing.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://www.cutsclothing.com/" target="_blank">Cuts Clothing</a></h4>
+								<p>React.js, e-commerce</p>
+							</div>
+						</div>
+					</div>
+	
+	
+					<div class="col-lg-6 col-md-6 all wordpress">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/p4.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="http://www.iliketofu.eu/" target="_blank">I Like Tofu</a></h4>
+								<p>Wordpress, Theme development</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 all laravel">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/p8.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://www.mynefcu.org/" target="_blank">MyNEFCU Laravel Website</a></h4>
+								<p>Laravel, Web Development</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 all laravel">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/p7.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://parkbench.com/" target="_blank">Park Bench Website</a></h4>
+								<p>Laravel, PHP</p>
+							</div>
+						</div>
+					</div>					
+					<div class="col-lg-3 col-md-6 all wordpress">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/yourlawyer.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://www.yourlawyer.com/" target="_blank">YourLawyer</a></h4>
+								<p>Wordpress, Genesis, PHP</p>
+							</div>
+						</div>
+					</div>	
+					<div class="col-lg-6 col-md-6 all wordpress">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/p6.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://scratchgolfacademy.com/" target="_blank">Scratch Golf Academy</a></h4>
+								<p>Wordpress, Genesis framework, Theme customization</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 all wordpress">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/ajax.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://ajax.systems/" target="_blank">No Wires Website</a></h4>
+								<p>Wordpress, Theme customization</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 all wordpress">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/hashbay.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://hashtagbay.com/" target="_blank">#bay T-Shirts</a></h4>
+								<p>Wordpress, Woocommerce, Customizable Product</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 all laravel">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/lexani.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://lexani.com/" target="_blank">Lexani</a></h4>
+								<p>Php, Laravel</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 all shopify">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/vividads.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://vividads.com.au/" target="_blank">Vividads Print Company</a></h4>
+								<p>Shopify, Theme customization, Private app build</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 all wordpress">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/sassiholford.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://sassiholford.com/" target="_blank">Sassi Holford Fashion Store</a></h4>
+								<p>Wordpress, Woocommerce</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 all shopify">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/UGMonk.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://vividads.com.au/" target="_blank">UGMonk Store</a></h4>
+								<p>Shopify, Theme customization, Private app build</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 all shopify">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/mollyjogger.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://www.mollyjogger.com/" target="_blank">Mollyjoger Story</a></h4>
+								<p>Shopify, Theme customization</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 all wordpress">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/p5.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://playermaker.com/" target="_blank">Player Maker</a></h4>
+								<p>Wordpress, Theme Customization</p>
+							</div>
+						</div>
+					</div>					
+					<div class="col-lg-6 col-md-6 all d3">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/d3/dashboard_example.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://webmaster444.github.io/" target="_blank">Synced Dashboard </a></h4>
+								<p>Synchronized dashboard built with crossfilter.js and d3.js</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 all d3">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/d3/darkmode-barchart.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://webmaster444.github.io/" target="_blank">Barchart in Dark Mode</a></h4>
+								<p>Barchart with negative value</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 all d3">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/d3/houses.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://webmaster444.github.io/" target="_blank">House Revolution</a></h4>
+								<p>REST API, D3.js</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 all d3 laravel">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/d3/footyportal.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="http://footyportal.com/" target="_blank">Footy Portal</a></h4>
+								<p>Laravel, D3.js</p>
+							</div>
+						</div>
+					</div>
+	
+					<div class="col-lg-6 col-md-6 all d3">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/d3/functions-dashboard.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://webmaster444.github.io/" target="_blank">API integrated Dashboard</a></h4>
+								<p>REST API, D3.js</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 all d3">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/d3/implied-price.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://webmaster444.github.io/" target="_blank">Implied Price</a></h4>
+								<p>Dynamic D3.js Bar Chart and Line Chart</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 all d3">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/d3/nbavis.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://webmaster444.github.io/" target="_blank">NBA Viz (Player Stats)</a></h4>
+								<p>A Dashboard with Widgets</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 all d3">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/d3/Processing.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://webmaster444.github.io/" target="_blank">Process Static Svg</a></h4>
+								<p>Static D3.js SVG</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 all d3">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/d3/richest_barchart.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://webmaster444.github.io/" target="_blank">Racing Bar Chart</a></h4>
+								<p>Animation, D3.js Bar Chart</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 all d3">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/d3/sunburst.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://webmaster444.github.io/" target="_blank">Sunburst</a></h4>
+								<p>Family Tree D3.js Sunburst</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 all d3">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/d3/sunburst-jay.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://webmaster444.github.io/" target="_blank">Dynamic Expandable Sunburst</a></h4>
+								<p>Zoomable, Filterable, Clickable D3.js Sunburst Chart</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-3 all d3">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/d3/updating-donutchart.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://webmaster444.github.io/" target="_blank">Donut Chart</a></h4>
+								<p>Dynamic D3.js Donut Chart</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 all d3">
+						<div class="single_portfolio">
+							<img class="img-fluid w-100" src="img/portfolio/d3/configurable-barchart.jpg" alt="">
+							<div class="overlay"></div>
+							<div class="short_info">
+								<h4><a href="https://webmaster444.github.io/" target="_blank">Configurable Barchart</a></h4>
+								<p>Configurable Bar chart (upload csv, select x, y axis)</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer_area">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-12">
+					<div class="footer_top flex-column">
+						<div class="footer_logo">
+							<a href="#">
+								<img src="img/logo2.png" alt="">
+							</a>
+							<div class="d-lg-block d-none">
+								<nav class="navbar navbar-expand-lg navbar-light justify-content-center">
+									<div class="collapse navbar-collapse offset">
+										<ul class="nav navbar-nav menu_nav mx-auto">
+											<li class="nav-item"><a class="nav-link text-white" href="#banner">Home</a></li>
+											<li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+											<li class="nav-item"><a class="nav-link text-white" href="#portfolio">Portfolio</a></li>											
+											<li class="nav-item"><a class="nav-link text-white" href="#service">Services </a></li>
+										</ul>
+									</div>
+								</nav>
+							</div>
+						</div>
+						<div class="footer_social mt-lg-0 mt-4">
+							<a href="https://github.com/webmaster444"><i class="fab fa-github"></i></a>
+							<a href="mailto:jlmobile710@gmail.com"><i class="ti-email"></i></a>
+							<a href="skype:jlmobile710@gmail.com?call"><i class="fab fa-skype"></i></a>							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row footer_bottom justify-content-center">
+				<p class="col-lg-8 col-sm-12 footer-text">					
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </p>
+			</div>
+		</div>
+	</footer>
+	<!--================End Footer Area =================-->
 
-
-      <div class="isotope fadeInLeft animated wow grid container-fluid" id="portfolio_wrapper">
-        <div class="row portfolio-row">
-            <div class="col-3 portfolio-col">
-              <figure class="portfolio-item one-four  isotope-item effect-oscar">
-                <div class="portfolio_img">
-                  <img src="img/lessgo.png" alt="LessGo">
-                </div>
-                <figcaption>
-                  <div>
-                    <a href="https://www.lessgo.app/" target="_blank" class="fancybox">
-                      <h2><span>LessGo</span></h2>
-                      <p>Full stack carpooling application</p>
-                    </a>
-                  </div>
-                </figcaption>
-              </figure>
-              <a href="https://github.com/LuckyMan120/LessGo_Frontend" target="_blank" class="portfolio-github">GitHub</a>
-            </div>
-
-            <div class="col-3 portfolio-col">
-              <figure class="portfolio-item one-four isotope-item effect-oscar">
-                <div class="portfolio_img">
-                  <img src="img/clothing.png" alt="Clothing">
-                </div>
-                <figcaption>
-                  <div>
-                    <a href="https://giveglorytogodclothing.com/" target="_blank" class="fancybox">
-                      <h2><span>Christian</span></h2>
-                      <p>Clothing Shipping application</p>
-                    </a>
-                  </div>
-                </figcaption>
-              </figure>
-              <a href="https://github.com/pei-evelyn/bork-frens" target="_blank" class="portfolio-github">GitHub</a>
-            </div>
-
-            <div class="col-3 portfolio-col">
-              <figure class="portfolio-item one-four isotope-item effect-oscar">
-                <div class="portfolio_img">
-                  <img src="img/god.png" alt="Hope">
-                </div>
-                <figcaption>
-                  <div>
-                    <a href="https://www.thehopeproject.com/" target="_blank" class="fancybox">
-                      <h2><span>Hope</span></h2>
-                      <p>God Studying platform</p>
-                    </a>
-                  </div>
-                </figcaption>
-              </figure>
-              <a href="https://github.com/pei-evelyn/tappd" target="_blank" class="portfolio-github">GitHub</a>
-            </div>
-
-            <div class="col-3 portfolio-col">
-              <figure class="portfolio-item one-four isotope-item effect-oscar">
-                <div class="portfolio_img">
-                  <img src="img/skin.png" alt="Skin Science">
-                </div>
-                <figcaption>
-                  <div>
-                    <a href="https://skinscience.ca/" target="_blank" class="fancybox">
-                      <h2><span>Skin</span></h2>
-                      <p>Take caring the skin platform</p>
-                    </a>
-                  </div>
-                </figcaption>
-              </figure>
-              <a href="https://github.com/pei-evelyn/studio-ghibli-memory-match" target="_blank" class="portfolio-github">GitHub</a>
-            </div>
-        </div>
-      </div>
-  </section>
-
-  <footer class="footer_wrapper" id="contact">
-    <div class="container">
-      <section class="page_section contact">
-        <div class="contact_section">
-          <h2>Get In Touch</h2>
-          <h6 class="contact-text">Open and actively looking for opportunities.</h6>
-          <h6 class="contact-text">Please reach me at any of the links provided below.</h6>
-          <a class="resume-btn" href="https://app.resumecoach.com/share/ef2792de8f8e4b43be101d0ac9cac016" target="_blank">
-            RESUME
-          </a>
-        </div>
-        <div class="row">
-          <div class="col wow fadeInLeft">
-          <ul class="social_links">
-            <li class="linkedin animated bounceIn wow delay-02s animated" style="visibility: visible; animation-name: bounceIn;">
-              <a href="https://www.linkedin.com/in/kevin-travis-2486911a5/" target="_blank">
-                <i class="fa fa-linkedin"></i>
-              </a>
-            </li>
-            <li class="github animated bounceIn wow delay-03s animated" style="visibility: visible; animation-name: bounceIn;">
-              <a href="https://github.com/LuckyMan120" target="_blank">
-                <i class="fa fa-github"></i>
-              </a>
-            </li>
-            <li class="envelope animated bounceIn wow delay-04s animated" style="visibility: visible; animation-name: bounceIn;">
-              <a href="mailto:kevintravis120@gmail.com" target="_blank">
-                <i class="fa fa-envelope"></i>
-              </a>
-            </li>
-            <li class="phone animated bounceIn wow delay-05s animated" style="visibility: visible; animation-name: bounceIn;">
-              <a href="tel:18564855478">
-                <i class="fa fa-phone"></i>
-              </a>
-            </li>
-          </ul>
-          </div>
-        </div>
-      </section>
-    </div>
-  </footer>
-
-
-  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
-  <script type="text/javascript" src="js/jquery.nav.js"></script>
-  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-  <script type="text/javascript" src="js/jquery.isotope.js"></script>
-  <script type="text/javascript" src="js/wow.js"></script>
-  <script src="js/custom.js"></script>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="vendors/isotope/isotope-min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/theme.js"></script>
 </body>
+
 </html>
